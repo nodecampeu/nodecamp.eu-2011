@@ -1,0 +1,59 @@
+html {background-color:#202429;}
+
+
+img {
+  border:none;
+}
+body{
+  margin:0;
+  padding:0;
+  font:normal normal normal 16px/22px Helvetica, Arial, sans-serif;
+  color:#E3E3E3;
+}
+#wrapper {
+  width:640px;
+  margin: 0 auto;
+}
+
+#badge {
+  text-align:center;
+  font-family:Reenie Beanie;
+  font-size:36px;
+}
+
+h1, h2, h3 {
+  font-family:Reenie Beanie;
+}
+
+h2 {
+  font-size:46px;
+  margin-bottom:10px;
+}
+
+p {
+  margin-top:10px;
+  font-size:18px;
+  line-height:26px;
+  font-family:Merriweather;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom:10px;
+}
+a:link,a:visited{color:#e2007a;text-decoration:none;font-weight:bold;}
+a:hover{text-decoration:underline;}
+
+
+a:link, a:visited {
+  color:#BFEFFF;
+  text-decoration:none;
+}
+
+div.main-header {
+  width:100%;
+}
+
+div.logo {
+
+}
+div#logo {
+  text-align:center;
+}
