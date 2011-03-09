@@ -1,17 +1,61 @@
 html {background-color:#202429;}
 
+@font-face {
+    font-family: 'DINProMedium';
+    src: url('dinpro-medium-webfont.eot?') format('eot'),
+         url('dinpro-medium-webfont.woff') format('woff'),
+         url('dinpro-medium-webfont.ttf') format('truetype'),
+         url('dinpro-medium-webfont.svg#webfontDSM87qK6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINProLight';
+    src: url('dinpro-light-webfont.eot?') format('eot'),
+         url('dinpro-light-webfont.woff') format('woff'),
+         url('dinpro-light-webfont.ttf') format('truetype'),
+         url('dinpro-light-webfont.svg#webfont2wXyqblU') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINProBold';
+    src: url('dinpro-bold-webfont.eot?') format('eot'),
+         url('dinpro-bold-webfont.woff') format('woff'),
+         url('dinpro-bold-webfont.ttf') format('truetype'),
+         url('dinpro-bold-webfont.svg#webfontSUeVRhPY') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINProRegular';
+    src: url('dinpro-regular-webfont.eot?') format('eot'),
+         url('dinpro-regular-webfont.woff') format('woff'),
+         url('dinpro-regular-webfont.ttf') format('truetype'),
+         url('dinpro-regular-webfont.svg#webfontIRVOZPRQ') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 img {
   border:none;
 }
 body{
   margin:0;
-  padding:0;
+  padding:25px 0 0 0;
   font:normal normal normal 16px/22px Helvetica, Arial, sans-serif;
   color:#E3E3E3;
+  background-color: #202429;
 }
 #wrapper {
-  width:640px;
+  width:960px;
   margin: 0 auto;
 }
 
@@ -22,38 +66,160 @@ body{
 }
 
 h1, h2, h3 {
-  font-family:Reenie Beanie;
+  font-family: 'DINProMedium';
+  font-weight: bold;
 }
 
 h2 {
-  font-size:46px;
+  font-size:30px;
   margin-bottom:10px;
+}
+
+.people h2 {
+  font-weight: normal;
 }
 
 p {
   margin-top:10px;
   font-size:18px;
   line-height:26px;
-  font-family:Merriweather;
-  text-shadow: 1px 1px 1px black;
   margin-bottom:10px;
+  font-family: 'DINProLight';
 }
-a:link,a:visited{color:#e2007a;text-decoration:none;font-weight:bold;}
+
+a:link ,
+a:visited {
+  text-decoration: underline;
+}
+  
 a:hover{text-decoration:underline;}
 
-
-a:link, a:visited {
-  color:#BFEFFF;
-  text-decoration:none;
-}
 
 div.main-header {
   width:100%;
 }
 
 div.logo {
-
+  text-align: center;
 }
-div#logo {
-  text-align:center;
+
+h5.date {
+  font-family: 'DINProLight';
+  font-weight: normal;
+  margin: 0px;
+  font-size: 18px;
+}
+
+ul.nav {
+  list-style-type: none;
+  display:inline;
+  float: right;
+}
+
+ul.nav li {
+  list-style-type: none;
+  display: inline;
+  padding-left:10px;
+}
+
+ul.nav li a {
+  padding: 4px 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.section_start .logo h1,
+.section_grenade .logo h1,
+.section_blue .logo h1,
+.section_beige .logo h1 {
+  text-indent: 300px;
+}
+
+.section_start,
+.section_grenade,
+.section_blue,
+.section_beige {
+  padding-bottom:100px;
+}
+
+.section_start {
+  padding-bottom: 200px;
+}
+
+div.header {
+  margin-bottom: 100px;
+}
+
+.section_blue a.face img,
+.section_beige .map img {
+  padding: 15px;
+  background-color: white;
+}
+
+.section_blue a.face {
+  margin: 0px 10px 0 0;
+  float: left;
+}
+.sponsors {
+  text-align: center;
+}
+
+.sponsors a img {
+  margin: 0px 10px;
+  vertical-align: middle;
+}
+
+
+/* Cloud stuff */
+
+.cloud {
+  position: relative;
+  font-family: 'DINProLight';
+}
+
+.cloud .day,
+.cloud .month,
+.cloud .city,
+.cloud .country {
+  position: absolute;
+  color: #65425f;
+}
+
+.cloud .day {
+  top: 38px;
+  left: 96px;
+  font-size: 62px;
+}
+
+.cloud .day .bold {
+  font-family: 'DINProBold';
+}
+
+.cloud .month {
+  left: 103px;
+  font-size: 34px;
+  top:84px;
+}
+
+.cloud .month .bold {
+  font-family: 'DINProBold';
+}
+
+.cloud .city {
+  left: 15px;
+  font-size: 66px;
+  top:128px;
+  font-family: 'DINProBold';
+}
+
+.cloud .country {
+  left: 60px;
+  font-size: 21px;
+  top:168px;
+}
+
+.bold {
+  font-weight: bold;
 }
