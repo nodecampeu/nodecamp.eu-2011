@@ -1,0 +1,124 @@
+/* Section 1 */
+
+.section_start,
+.section_grenade {
+  color: #fff;
+}
+
+.section_start a,
+.section_grenade a {
+  color: #B5D447;
+}
+
+
+.section_start .logo a,
+.section_grenade .logo a {
+  background: transparent url("../images/logo_1.png") no-repeat 0 0;
+  width:299px;
+  height:46px;
+  display:block;
+  overflow:hidden;
+}
+
+.section_start ul.nav li a,
+.section_grenade ul.nav li a {
+  color: #b5d447;
+}
+
+.section_start ul.nav li.selected a,
+.section_start ul.nav li a:hover,
+.section_grenade ul.nav li.selected a,
+.section_grenade ul.nav li a:hover {
+  background-color: #b5d447;
+  color: #202429;
+}
+
+/* Section Blue - color */
+
+.section_blue {
+  color: #273a6c;
+}
+
+.section_blue a {
+  color: #202429;
+}
+
+.section_blue .logo a {
+  background: transparent url("../images/logo_2.png") no-repeat 0 0;
+  width:299px;
+  height:46px;
+  display:block;
+  overflow:hidden;
+}
+
+.section_blue h1, .section_blue h2 {
+  color: #202429;
+}
+
+.section_blue ul.nav li a {
+  color: #202429;
+  background: transparent;
+}
+
+.section_blue ul.nav li.selected a,
+.section_blue ul.nav li a:hover {
+  background-color: #202429;
+  color: #e2faff;
+}
+
+/* Section Beige - color */
+
+.section_beige {
+  color:#5c5766;
+}
+
+.section_beige a {
+  color: #51cde7;
+}
+
+.section_beige .logo a {
+  background: transparent url("../images/logo_3.png") no-repeat 0 0;
+  width:299px;
+  height:46px;
+  display:block;
+  overflow:hidden;
+}
+
+.section_beige ul.nav li.selected a,
+.section_beige ul.nav li a:hover {
+  background-color: #e2faff;
+  color: #5c5766;
+}
+
+.section_1 {
+  background-color: #202429;
+}
+
+.section_blue {
+  background-color: #e2faff;
+}
+
+.section_beige {
+  background-color:#f2ddc8;
+}
+
+.section_blue .container_12,
+.section_beige .container_12,
+.section_grenade .container_12 {
+  position:relative;
+  top:-70px;
+  padding-top:20px;
+  -moz-border-radius: 25px 25px 0 0;
+  -webkit-border-radius: 25px 25px 0 0;
+  -khtml-border-radius: 25px 25px 0 0;
+  border-radius: 25px 25px 0 0;
+  background-color: #e2faff;
+}
+
+.section_beige .container_12 {
+  background-color: #f2ddc8;
+}
+
+.section_grenade .container_12 {
+  background-color: #202429;
+}
