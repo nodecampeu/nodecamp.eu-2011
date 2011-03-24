@@ -95,7 +95,7 @@
 }
 
 .section_blue {
-  background-color: #e2faff;
+  background: #e2faff;
 }
 
 .section_beige {
@@ -112,7 +112,7 @@
   -webkit-border-radius: 25px 25px 0 0;
   -khtml-border-radius: 25px 25px 0 0;
   border-radius: 25px 25px 0 0;
-  background-color: #e2faff;
+  background: #e2faff;
 }
 
 .section_beige .container_12 {
