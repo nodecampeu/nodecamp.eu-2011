@@ -1,47 +1,25 @@
 html {background-color:#202429;}
 
 @font-face {
-    font-family: 'DINProMedium';
-    src: url('dinpro-medium-webfont.eot?') format('eot'),
-         url('dinpro-medium-webfont.woff') format('woff'),
-         url('dinpro-medium-webfont.ttf') format('truetype'),
-         url('dinpro-medium-webfont.svg#webfontDSM87qK6') format('svg');
+    font-family: 'TitilliumText22L1wt';
+    src: url('titilliumtext22l001-webfont.eot');
+    src: url('titilliumtext22l001-webfont.eot?iefix') format('eot'),
+         url('titilliumtext22l001-webfont.woff') format('woff'),
+         url('titilliumtext22l001-webfont.ttf') format('truetype'),
+         url('titilliumtext22l001-webfont.svg#webfontpvtspPjD') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'DINProLight';
-    src: url('dinpro-light-webfont.eot?') format('eot'),
-         url('dinpro-light-webfont.woff') format('woff'),
-         url('dinpro-light-webfont.ttf') format('truetype'),
-         url('dinpro-light-webfont.svg#webfont2wXyqblU') format('svg');
+    font-family: 'TitilliumText22L600wt';
+    src: url('titilliumtext22l004-webfont.eot');
+    src: url('titilliumtext22l004-webfont.eot?iefix') format('eot'),
+         url('titilliumtext22l004-webfont.woff') format('woff'),
+         url('titilliumtext22l004-webfont.ttf') format('truetype'),
+         url('titilliumtext22l004-webfont.svg#webfont6QQcA06I') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'DINProBold';
-    src: url('dinpro-bold-webfont.eot?') format('eot'),
-         url('dinpro-bold-webfont.woff') format('woff'),
-         url('dinpro-bold-webfont.ttf') format('truetype'),
-         url('dinpro-bold-webfont.svg#webfontSUeVRhPY') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'DINProRegular';
-    src: url('dinpro-regular-webfont.eot?') format('eot'),
-         url('dinpro-regular-webfont.woff') format('woff'),
-         url('dinpro-regular-webfont.ttf') format('truetype'),
-         url('dinpro-regular-webfont.svg#webfontIRVOZPRQ') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 img {
@@ -61,12 +39,12 @@ body{
 
 #badge {
   text-align:center;
-  font-family:Reenie Beanie;
+  font-family:'TitilliumText22L1wt';
   font-size:36px;
 }
 
 h1, h2, h3 {
-  font-family: 'DINProMedium';
+  font-family: 'TitilliumText22L600wt';
   font-weight: bold;
 }
 
@@ -84,7 +62,7 @@ p {
   font-size:24px;
   line-height:36px;
   margin-bottom:10px;
-  font-family: 'DINProLight';
+  font-family:'TitilliumText22L1wt';
 }
 
 a:link ,
@@ -104,7 +82,7 @@ div.logo {
 }
 
 h5.date {
-  font-family: 'DINProLight';
+  font-family:'TitilliumText22L1wt';
   font-weight: normal;
   margin: 0px;
   font-size: 18px;
@@ -177,7 +155,7 @@ div.header {
 
 .cloud {
   position: relative;
-  font-family: 'DINProLight';
+  font-family:'TitilliumText22L1wt';
 }
 
 .cloud .day,
@@ -195,7 +173,7 @@ div.header {
 }
 
 .cloud .day .bold {
-  font-family: 'DINProBold';
+  font-family: 'TitilliumText22L600wt';
 }
 
 .cloud .month {
@@ -205,14 +183,15 @@ div.header {
 }
 
 .cloud .month .bold {
-  font-family: 'DINProBold';
+  font-family: 'TitilliumText22L600wt';
+  font-weight: bold;
 }
 
 .cloud .city {
   left: 15px;
   font-size: 66px;
   top:128px;
-  font-family: 'DINProBold';
+  font-family: 'TitilliumText22L600wt';
 }
 
 .cloud .country {
