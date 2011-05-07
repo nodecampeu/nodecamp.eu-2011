@@ -97,7 +97,7 @@ ul.nav {
 ul.nav li {
   list-style-type: none;
   display: inline;
-  padding-left:10px;
+  padding-left: 5px;
 }
 
 ul.nav li a {
