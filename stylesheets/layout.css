@@ -207,8 +207,8 @@ div.header {
   border-radius: 5px 5px 5px 5px;
   float: left;
   margin: 2px 10px 0 0;
-  padding: 0px 0px 5px 0;
-  width: 70px;
+  padding: 0px 0px 3px 0;
+  width: 40px;
 }
 
 .calendar .month {
@@ -216,48 +216,58 @@ div.header {
   display: block;
   line-height: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 10px;
   text-align: center;
   color: white;
-  width:70px;
-  padding: 7px 0;
+  width: 40px;
+  padding: 3px 0;
   background-color: red;
 }
 
 .calendar .dayy {
-  border-bottom: 1px solid #E5E5E5;
   color: #0099CC;
-  font-size: 45px;
+  font-size: 22px;
   text-align: center;
-  width: 70px;
+  width: 40px;
   line-height: 100%;
-  padding:10px 0 2px 0;
+  padding:5px 0 0 0;
   display: block;
 }
 
-.calendar .year {
-  display: block;
-  line-height: 100%;
-  text-align: center;
-  text-align: center;
-  color: #c4c4c4;
-  font-size: 14px;
-  width:70px;
-  padding: 10px 0 3px 0;
+table.calendarium {
+  margin-top: 40px;
 }
 
 table {
   width: 700px;
-  border-bottom: 1px dotted white;
-  padding-bottom: 10px;
 }
 
 table .cal {
-  width: 100px;
+  width: 60px;
 }
 
 table tr td {
   vertical-align: top;
+}
+
+table thead tr {
+  background-color: #E2FAFF;
+  color: black;
+}
+
+table thead tr th {
+  padding: 3px;
+}
+table thead tr th:first-child {
+  width: 70px;
+}
+
+table tbody tr td {
+  padding: 5px;
+}
+
+table tbody tr:nth-child(2n) {
+  background-color: #4a4a4a;
 }
 
 .bold {
