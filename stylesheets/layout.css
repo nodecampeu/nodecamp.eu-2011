@@ -259,7 +259,7 @@ table thead tr th {
   padding: 3px;
 }
 table thead tr th:first-child {
-  width: 70px;
+  width: 140px;
 }
 
 table tbody tr td {
